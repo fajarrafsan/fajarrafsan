@@ -2,7 +2,6 @@ name: Generate Trophy Card
 
 on:
   schedule:
-    # Setiap 12 jam
     - cron: "0 */12 * * *"
 
   workflow_dispatch:
@@ -13,10 +12,11 @@ on:
 
 jobs:
   generate:
+    runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
-    runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
@@ -33,12 +33,12 @@ jobs:
           no-background: false
           no-frame: false
 
-      - name: Show generated files
+      - name: Check generated file
         run: |
           echo "Generated files:"
-          find dist -maxdepth 2 -type f -print
+          find dist -type f -maxdepth 2 -print
 
-      - name: Push trophy.svg to trophy-output branch
+      - name: Publish trophy.svg
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: trophy-output
