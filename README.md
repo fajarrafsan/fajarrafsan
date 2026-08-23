@@ -178,10 +178,13 @@ A hotel booking application built using a modern microservices architecture.
 
 ## 🏆 GitHub Trophy
 
+## 🏆 GitHub Trophy
+
 <p align="center">
   <img
-    src="https://github-profile-trophy.vercel.app/?username=fajarrafsan02-bit&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6"
+    src="./profile/trophy.svg"
     alt="GitHub Trophy"
+    width="100%"
   />
 </p>
 
