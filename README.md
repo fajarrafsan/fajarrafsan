@@ -3,7 +3,6 @@
 </div>
 <h2 data-importer="text" align="center">Hi 👋! My name is Fajar Rafsan</h2>
 
-###
 ### Full Stack Developer | Java • Spring Boot • React • PostgreSQL • REST API
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fajar rafsan&label=Profile views&color=0e75b6&style=flat" alt="fajar rafsan" /> </p>
