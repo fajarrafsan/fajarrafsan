@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="210" viewBox="0 0 540 210" role="img" aria-labelledby="t">
+  <title id="t">ANISTREAM - platform streaming dengan katalog, player multi-server, dan cache Redis</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12101C"/>
+      <stop offset="100%" stop-color="#0A0C14"/>
+    </linearGradient>
+  </defs>
+  <rect width="540" height="210" rx="18" fill="url(#g)"/>
+  <rect x="0.75" y="0.75" width="538.5" height="208.5" rx="17.25" fill="none" stroke="#2A2440"/>
+  <rect x="0" y="28" width="5" height="154" fill="#A78BFA"/>
+  <text x="28" y="36" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="3">01  /  STREAMING</text>
+  <text x="512" y="36" text-anchor="end" fill="#A78BFA" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">2026</text>
+  <text x="28" y="78" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">ANISTREAM</text>
+  <text x="28" y="108" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Katalog, player multi-server, Google OAuth, wishlist,</text>
+  <text x="28" y="128" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">watch history, dan cache Redis + AniList metadata.</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">
+    <rect x="28" y="152" width="72" height="22" rx="11" fill="#1A1630" stroke="#3B3358"/>
+    <text x="64" y="167" text-anchor="middle" fill="#DDD6FE">Node.js</text>
+    <rect x="108" y="152" width="70" height="22" rx="11" fill="#1A1630" stroke="#3B3358"/>
+    <text x="143" y="167" text-anchor="middle" fill="#DDD6FE">Express</text>
+    <rect x="186" y="152" width="58" height="22" rx="11" fill="#1A1630" stroke="#3B3358"/>
+    <text x="215" y="167" text-anchor="middle" fill="#DDD6FE">Redis</text>
+    <rect x="252" y="152" width="72" height="22" rx="11" fill="#1A1630" stroke="#3B3358"/>
+    <text x="288" y="167" text-anchor="middle" fill="#DDD6FE">React 19</text>
+  </g>
+</svg>

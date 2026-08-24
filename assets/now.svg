@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="168" viewBox="0 0 1100 168" role="img" aria-labelledby="t">
+  <title id="t">Fokus saat ini: mengajar Java, membangun sistem fullstack, terbuka untuk peluang</title>
+  <rect width="1100" height="168" rx="18" fill="#070B12"/>
+  <rect x="0.75" y="0.75" width="1098.5" height="166.5" rx="17.25" fill="none" stroke="#1E2D45"/>
+  <circle cx="28" cy="28" r="5" fill="#F87171"/>
+  <circle cx="48" cy="28" r="5" fill="#FBBF24"/>
+  <circle cx="68" cy="28" r="5" fill="#34D399"/>
+  <text x="96" y="33" fill="#64748B" font-family="Consolas, ui-monospace, monospace" font-size="13">current_focus.sh</text>
+  <text x="36" y="72" fill="#38BDF8" font-family="Consolas, ui-monospace, monospace" font-size="15">$ whoami</text>
+  <text x="36" y="98" fill="#E2E8F0" font-family="Consolas, ui-monospace, monospace" font-size="15">fajar | fullstack | bandung</text>
+  <text x="36" y="128" fill="#818CF8" font-family="Consolas, ui-monospace, monospace" font-size="15">teaching: Java Fundamentals @ UNAS Pasim</text>
+  <text x="36" y="152" fill="#94A3B8" font-family="Consolas, ui-monospace, monospace" font-size="15">open: fullstack roles | collaboration | reliable systems</text>
+</svg>

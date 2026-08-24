@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="210" viewBox="0 0 540 210" role="img" aria-labelledby="t">
+  <title id="t">GlowMarket - e-commerce emas dengan Xendit, STOMP, dan pembukuan double-entry</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16110A"/>
+      <stop offset="100%" stop-color="#0C0B08"/>
+    </linearGradient>
+  </defs>
+  <rect width="540" height="210" rx="18" fill="url(#g)"/>
+  <rect x="0.75" y="0.75" width="538.5" height="208.5" rx="17.25" fill="none" stroke="#3F3420"/>
+  <rect x="0" y="28" width="5" height="154" fill="#E8B84A"/>
+  <text x="28" y="36" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="3">03  /  COMMERCE + LEDGER</text>
+  <text x="512" y="36" text-anchor="end" fill="#E8B84A" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">2026</text>
+  <text x="28" y="78" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">GLOWMARKET</text>
+  <text x="28" y="108" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Checkout Xendit, ongkir RajaOngkir, chat STOMP,</text>
+  <text x="28" y="128" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">poin loyalitas, dan jurnal double-entry otomatis.</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">
+    <rect x="28" y="152" width="92" height="22" rx="11" fill="#241C0C" stroke="#5C4A1E"/>
+    <text x="74" y="167" text-anchor="middle" fill="#FDE68A">Spring Boot</text>
+    <rect x="128" y="152" width="62" height="22" rx="11" fill="#241C0C" stroke="#5C4A1E"/>
+    <text x="159" y="167" text-anchor="middle" fill="#FDE68A">Flyway</text>
+    <rect x="198" y="152" width="64" height="22" rx="11" fill="#241C0C" stroke="#5C4A1E"/>
+    <text x="230" y="167" text-anchor="middle" fill="#FDE68A">Xendit</text>
+    <rect x="270" y="152" width="72" height="22" rx="11" fill="#241C0C" stroke="#5C4A1E"/>
+    <text x="306" y="167" text-anchor="middle" fill="#FDE68A">React 19</text>
+  </g>
+</svg>

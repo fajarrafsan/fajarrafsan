@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="210" viewBox="0 0 540 210" role="img" aria-labelledby="t">
+  <title id="t">Roomly - hotel booking microservices dengan Eureka, RabbitMQ, dan Midtrans</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1524"/>
+      <stop offset="100%" stop-color="#070B12"/>
+    </linearGradient>
+  </defs>
+  <rect width="540" height="210" rx="18" fill="url(#g)"/>
+  <rect x="0.75" y="0.75" width="538.5" height="208.5" rx="17.25" fill="none" stroke="#1E3A4C"/>
+  <rect x="0" y="28" width="5" height="154" fill="#38BDF8"/>
+  <text x="28" y="36" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="3">02  /  MICROSERVICES</text>
+  <text x="512" y="36" text-anchor="end" fill="#38BDF8" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">2026</text>
+  <text x="28" y="78" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">ROOMLY</text>
+  <text x="28" y="108" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Eureka, API Gateway, event RabbitMQ, JWT,</text>
+  <text x="28" y="128" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Midtrans, invoice PDF, dashboard real-time ID/EN.</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">
+    <rect x="28" y="152" width="92" height="22" rx="11" fill="#0F2436" stroke="#1E4A63"/>
+    <text x="74" y="167" text-anchor="middle" fill="#BAE6FD">Spring Boot</text>
+    <rect x="128" y="152" width="84" height="22" rx="11" fill="#0F2436" stroke="#1E4A63"/>
+    <text x="170" y="167" text-anchor="middle" fill="#BAE6FD">RabbitMQ</text>
+    <rect x="220" y="152" width="64" height="22" rx="11" fill="#0F2436" stroke="#1E4A63"/>
+    <text x="252" y="167" text-anchor="middle" fill="#BAE6FD">Docker</text>
+    <rect x="292" y="152" width="86" height="22" rx="11" fill="#0F2436" stroke="#1E4A63"/>
+    <text x="335" y="167" text-anchor="middle" fill="#BAE6FD">TypeScript</text>
+  </g>
+</svg>
