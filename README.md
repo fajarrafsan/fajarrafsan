@@ -178,8 +178,6 @@ A hotel booking application built using a modern microservices architecture.
 
 ## 🏆 GitHub Trophy
 
-## 🏆 GitHub Trophy
-
 <p align="center">
   <img
     src="./profile/trophy.svg"
