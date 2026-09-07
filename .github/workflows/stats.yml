@@ -1,5 +1,12 @@
 name: Generate stats card
 
+# Kartu ini butuh personal access token, bukan GITHUB_TOKEN bawaan.
+# GITHUB_TOKEN tidak boleh membaca statistik kontribusi pengguna, sehingga
+# hasilnya hanya gambar berisi "Resource not accessible by integration".
+# Cara menyalakan: buat PAT klasik bercakupan read:user dan repo, lalu simpan
+# sebagai repository secret bernama PAT. Setelah itu kartunya akan terbentuk
+# dan tinggal ditautkan di README.
+
 on:
   schedule: # execute every 12 hours
     - cron: "0 */12 * * *"
@@ -24,7 +31,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&hide_title=false&hide_rank=false&show_icons=true&locale=en&hide_border=true&bg_color=070B12&title_color=38BDF8&icon_color=818CF8&text_color=CBD5E1&ring_color=38BDF8
           path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
 
       - name: push stats.svg to the output branch
