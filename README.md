@@ -173,14 +173,18 @@ Alat yang benar-benar dipakai di sistem di atas — bukan daftar semua yang pern
 
 ## Aktivitas GitHub
 
-Grafik di bawah ini dihasilkan oleh workflow di repositori ini, disegarkan tiap 12 jam,
-lalu disajikan langsung dari branch hasilnya — jadi tetap tampil walau layanan pihak
+Semua grafik di bawah ini dibuat oleh workflow di repositori ini dan disegarkan tiap
+12 jam, lalu disajikan dari repositori sendiri — jadi tetap tampil walau layanan pihak
 ketiga sedang kena batas laju atau mati.
 
 <div align="center">
-  <img height="180" src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/languages-output/languages.svg" alt="Bahasa pemrograman yang paling sering dipakai" />
-  <img height="180" src="https://streak-stats.demolab.com?user=fajarrafsan&background=070B12&border=070B12&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=CBD5E1&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B&stroke=1E2D45" alt="Rentetan kontribusi harian" />
+  <img height="150" src="./assets/stats.svg" alt="Ringkasan statistik GitHub: jumlah commit, repositori publik, bahasa, dan pengikut" />
+  <img height="150" src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/languages-output/languages.svg" alt="Bahasa pemrograman yang paling sering dipakai" />
 </div>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=fajarrafsan&background=070B12&border=070B12&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=CBD5E1&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B&stroke=1E2D45" alt="Rentetan kontribusi harian" />
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/activity-graph-output/activity-graph.svg" alt="Grafik kontribusi setahun terakhir" width="100%" />

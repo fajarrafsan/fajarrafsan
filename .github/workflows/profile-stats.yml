@@ -1,0 +1,45 @@
+name: Generate profile stats card
+
+# Kartu statistik buatan sendiri, menggantikan github-readme-stats yang
+# menuntut personal access token. Semua angka di sini bisa diambil dengan
+# GITHUB_TOKEN bawaan, jadi tidak ada secret tambahan yang perlu disiapkan.
+
+on:
+  schedule: # setiap 12 jam
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/build-stats-card.sh
+      - .github/workflows/profile-stats.yml
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Susun assets/stats.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/build-stats-card.sh "${{ github.repository_owner }}" assets/stats.svg
+
+      - name: Commit bila angkanya berubah
+        run: |
+          if git diff --quiet -- assets/stats.svg; then
+            echo "Angka tidak berubah, tidak ada yang perlu di-commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg
+          git commit -m "Perbarui kartu statistik profil"
+          git push
