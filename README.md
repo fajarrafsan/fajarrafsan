@@ -5,7 +5,7 @@
 <br />
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=20&duration=3400&pause=1100&color=38BDF8&center=true&vCenter=true&width=760&lines=Fullstack+Developer+based+in+Bandung;Java+%C2%B7+Spring+Boot+%C2%B7+React+19+%C2%B7+TypeScript;bit+%E2%80%94+small+beginnings%2C+big+impacts" alt="Typing headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=20&duration=3400&pause=1100&color=38BDF8&center=true&vCenter=true&width=760&lines=Fullstack+Developer+based+in+Bandung;Java+%C2%B7+Spring+Boot+%C2%B7+React+19+%C2%B7+TypeScript;Six+systems+in+production%2C+not+a+tutorial+list;Accounting+precision%2C+engineering+system" alt="Judul berjalan: fullstack developer di Bandung" />
 </div>
 
 <div align="center">
@@ -173,21 +173,25 @@ Alat yang benar-benar dipakai di sistem di atas — bukan daftar semua yang pern
 
 ## Aktivitas GitHub
 
+Kartu di bawah ini dihasilkan oleh workflow di repositori ini dan disegarkan tiap 12 jam,
+lalu disajikan langsung dari branch hasilnya — bukan dari layanan pihak ketiga yang sering
+kena batas laju dan gagal muat.
+
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=fajarrafsan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=070B12&title_color=38BDF8&icon_color=818CF8&text_color=CBD5E1&ring_color=38BDF8" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fajarrafsan&layout=compact&langs_count=8&hide_border=true&bg_color=070B12&title_color=38BDF8&text_color=CBD5E1" alt="Top languages" />
+  <img height="165" src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/stats-output/stats.svg" alt="Ringkasan statistik GitHub" />
+  <img height="165" src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/languages-output/languages.svg" alt="Bahasa yang paling sering dipakai" />
 </div>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=fajarrafsan&background=070B12&border=070B12&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=CBD5E1&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B&stroke=1E2D45" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/activity-graph-output/activity-graph.svg" alt="Grafik kontribusi setahun terakhir" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fajarrafsan&bg_color=070B12&color=94A3B8&line=38BDF8&point=818CF8&area=true&area_color=38BDF8&hide_border=true" alt="Contribution graph" width="100%" />
+  <img src="https://streak-stats.demolab.com?user=fajarrafsan&background=070B12&border=070B12&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=CBD5E1&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B&stroke=1E2D45" alt="Rentetan kontribusi harian" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/snake-output/snake.svg" alt="Animasi kontribusi snake" />
+  <img src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/snake-output/snake.svg" alt="Animasi ular memakan grafik kontribusi" />
 </p>
 
 <img src="./assets/divider.svg" alt="" width="100%" />

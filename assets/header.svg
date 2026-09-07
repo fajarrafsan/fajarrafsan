@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
   <title id="title">Fajar Rafsan - Fullstack Developer, Bandung</title>
-  <desc id="desc">GitHub profile banner. Java, Spring, React, TypeScript. bit - small beginnings, big impacts.</desc>
+  <desc id="desc">GitHub profile banner. Java, Spring, React, TypeScript. Enam sistem produksi, bukan daftar tutorial..</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0A1220"/>
@@ -61,7 +61,7 @@
     <text x="438" y="234" text-anchor="middle" fill="#E2E8F0">PostgreSQL</text>
   </g>
 
-  <text x="36" y="272" fill="#64748B" font-family="Georgia, Times New Roman, serif" font-size="13" font-style="italic">bit - small beginnings, big impacts.</text>
+  <text x="36" y="272" fill="#64748B" font-family="Georgia, Times New Roman, serif" font-size="13" font-style="italic">Enam sistem produksi, bukan daftar tutorial..</text>
 
   <g transform="translate(742, 78)">
     <path class="flow" d="M96 28 H118" stroke="#38BDF8" stroke-width="1.4" opacity="0.7"/>

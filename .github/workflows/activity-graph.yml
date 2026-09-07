@@ -2,7 +2,7 @@ name: Update Activity Graph
 
 on:
   schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+    - cron: "0 */12 * * *"
 
   workflow_dispatch:
 
@@ -23,7 +23,7 @@ jobs:
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: ${{ github.repository_owner }}
-          options: radius=16&theme=react&area=true
+          options: radius=16&area=true&bg_color=070B12&color=94A3B8&line=38BDF8&point=818CF8&area_color=38BDF8&hide_border=true
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 

@@ -24,7 +24,7 @@ jobs:
       - name: Generate trophy card
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          options: "username=fajarrafsan02-bit&theme=dracula&column=6&row=1&margin-w=8&margin-h=8"
+          options: "username=${{ github.repository_owner }}&theme=dracula&column=6&row=1&margin-w=8&margin-h=8"
           path: profile/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
