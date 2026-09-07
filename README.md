@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=fajarrafsan02-bit&label=Profile%20views&color=38bdf8&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=fajarrafsan&label=Profile%20views&color=38bdf8&style=flat-square" alt="Profile views" />
   <img src="https://img.shields.io/badge/location-Bandung%2C%20ID-0ea5e9?style=flat-square&labelColor=070B12" alt="Bandung" />
   <img src="https://img.shields.io/badge/status-open%20to%20fullstack%20roles-34d399?style=flat-square&labelColor=070B12" alt="Open to work" />
 </div>
@@ -45,50 +45,71 @@ Saat ini saya mengajar **Java Fundamentals** di Universitas Nasional Pasim, dan 
 
 ## Sistem yang saya bangun
 
-Empat sistem nyata — streaming, reservasi hotel, e-commerce emas, dan akuntansi — bukan daftar tutorial.
+Enam sistem nyata — streaming, reservasi hotel, e-commerce emas, akuntansi, tiket penerbangan, dan data harga pasar — bukan daftar tutorial.
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fajarrafsan02-bit/REST-API-ANISTREASM-BE">
+      <a href="https://github.com/fajarrafsan/REST-API-ANISTREASM-BE">
         <img src="./assets/card-anistream.svg" alt="ANISTREAM" width="100%" />
       </a>
       <p>
-        <a href="https://github.com/fajarrafsan02-bit/ANISTREASM-FE"><img src="https://img.shields.io/badge/Frontend-ANISTREASM--FE-a78bfa?style=flat-square&labelColor=1a1630" alt="Frontend ANISTREAM" /></a>
-        <a href="https://github.com/fajarrafsan02-bit/REST-API-ANISTREASM-BE"><img src="https://img.shields.io/badge/Backend-REST--API--ANISTREASM--BE-a78bfa?style=flat-square&labelColor=1a1630" alt="Backend ANISTREAM" /></a>
+        <a href="https://github.com/fajarrafsan/ANISTREAM-FE"><img src="https://img.shields.io/badge/Frontend-ANISTREAM--FE-a78bfa?style=flat-square&labelColor=1a1630" alt="Frontend ANISTREAM" /></a>
+        <a href="https://github.com/fajarrafsan/REST-API-ANISTREASM-BE"><img src="https://img.shields.io/badge/Backend-REST--API--ANISTREASM--BE-a78bfa?style=flat-square&labelColor=1a1630" alt="Backend ANISTREAM" /></a>
       </p>
       Dual-source: katalog/episode dari Samehadaku, metadata dari AniList GraphQL. Auth email + Google OAuth, Redis single-flight cache, Prisma, PostgreSQL.
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fajarrafsan02-bit/REST-API-Hotel-Booking">
+      <a href="https://github.com/fajarrafsan/REST-API-Hotel-Booking">
         <img src="./assets/card-roomly.svg" alt="Roomly" width="100%" />
       </a>
       <p>
-        <a href="https://github.com/fajarrafsan02-bit/RoomlyHotel"><img src="https://img.shields.io/badge/Dashboard-RoomlyHotel-38bdf8?style=flat-square&labelColor=0f2436" alt="Roomly frontend" /></a>
-        <a href="https://github.com/fajarrafsan02-bit/REST-API-Hotel-Booking"><img src="https://img.shields.io/badge/Backend-REST--API--Hotel--Booking-38bdf8?style=flat-square&labelColor=0f2436" alt="Roomly backend" /></a>
+        <a href="https://github.com/fajarrafsan/RoomlyHotel"><img src="https://img.shields.io/badge/Dashboard-RoomlyHotel-38bdf8?style=flat-square&labelColor=0f2436" alt="Roomly frontend" /></a>
+        <a href="https://github.com/fajarrafsan/REST-API-Hotel-Booking"><img src="https://img.shields.io/badge/Backend-REST--API--Hotel--Booking-38bdf8?style=flat-square&labelColor=0f2436" alt="Roomly backend" /></a>
       </p>
       Microservices event-driven: Eureka, API Gateway, RabbitMQ, JWT, pembayaran Midtrans, invoice PDF. Dashboard React 19 + TypeScript, analitik live, dwibahasa ID/EN.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fajarrafsan02-bit/REST-API-GLOWMARKET">
+      <a href="https://github.com/fajarrafsan/REST-API-GLOWMARKET">
         <img src="./assets/card-glowmarket.svg" alt="GlowMarket" width="100%" />
       </a>
       <p>
-        <a href="https://github.com/fajarrafsan02-bit/GLOWMARKET"><img src="https://img.shields.io/badge/Frontend-GLOWMARKET-e8b84a?style=flat-square&labelColor=241c0c" alt="GlowMarket frontend" /></a>
-        <a href="https://github.com/fajarrafsan02-bit/REST-API-GLOWMARKET"><img src="https://img.shields.io/badge/Backend-REST--API--GLOWMARKET-e8b84a?style=flat-square&labelColor=241c0c" alt="GlowMarket backend" /></a>
+        <a href="https://github.com/fajarrafsan/GLOWMARKET"><img src="https://img.shields.io/badge/Frontend-GLOWMARKET-e8b84a?style=flat-square&labelColor=241c0c" alt="GlowMarket frontend" /></a>
+        <a href="https://github.com/fajarrafsan/REST-API-GLOWMARKET"><img src="https://img.shields.io/badge/Backend-REST--API--GLOWMARKET-e8b84a?style=flat-square&labelColor=241c0c" alt="GlowMarket backend" /></a>
       </p>
       E-commerce perhiasan emas: Xendit, RajaOngkir, chat WebSocket/STOMP, poin loyalitas, retur, dan pembukuan double-entry yang menjurnal setiap transaksi. Flyway mengunci skema.
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fajarrafsan02-bit/SIA-SISTEM_INFORMASI_AKUNTANSI">
+      <a href="https://github.com/fajarrafsan/SIA-SISTEM_INFORMASI_AKUNTANSI">
         <img src="./assets/card-sia.svg" alt="SIA Akuntansi" width="100%" />
       </a>
       <p>
-        <a href="https://github.com/fajarrafsan02-bit/SIA-SISTEM_INFORMASI_AKUNTANSI"><img src="https://img.shields.io/badge/Repo-SIA--SISTEM_INFORMASI_AKUNTANSI-34d399?style=flat-square&labelColor=0c241c" alt="SIA repository" /></a>
+        <a href="https://github.com/fajarrafsan/SIA-SISTEM_INFORMASI_AKUNTANSI"><img src="https://img.shields.io/badge/Repo-SIA--SISTEM_INFORMASI_AKUNTANSI-34d399?style=flat-square&labelColor=0c241c" alt="SIA repository" /></a>
       </p>
       Sistem informasi akuntansi: chart of accounts, jurnal umum & posting, buku besar, neraca saldo, laba rugi, neraca, perubahan modal, periode, dan faktur penjualan.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fajarrafsan/TiketKilatBE">
+        <img src="./assets/card-tiketkilat.svg" alt="TiketKilat" width="100%" />
+      </a>
+      <p>
+        <a href="https://github.com/fajarrafsan/TiketKilatFE"><img src="https://img.shields.io/badge/Frontend-TiketKilatFE-fb923c?style=flat-square&labelColor=2a1608" alt="TiketKilat frontend" /></a>
+        <a href="https://github.com/fajarrafsan/TiketKilatBE"><img src="https://img.shields.io/badge/Backend-TiketKilatBE-fb923c?style=flat-square&labelColor=2a1608" alt="TiketKilat backend" /></a>
+      </p>
+      Booking penerbangan ujung ke ujung: autentikasi JWT, pembayaran Midtrans, pemilihan kursi, e-ticket PDF dengan QR, notifikasi email, dan operasi admin. Spring Boot 3 + Java 21, antarmuka React + TypeScript.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fajarrafsan/AURUMKALA">
+        <img src="./assets/card-aurumkala.svg" alt="AURUMKALA" width="100%" />
+      </a>
+      <p>
+        <a href="https://github.com/fajarrafsan/AURUMKALA"><img src="https://img.shields.io/badge/Repo-AURUMKALA-fbbf24?style=flat-square&labelColor=241c0c" alt="AURUMKALA repository" /></a>
+      </p>
+      Monitor harga emas resmi Antam dan UBS. Pengambilan terjadwal Senin–Sabtu, cache agar situs sumber tidak dipanggil berlebihan, riwayat snapshot di basis data, API publik berdokumentasi OpenAPI, dan dashboard admin untuk sinkronisasi manual serta ekspor CSV.
     </td>
   </tr>
 </table>
@@ -96,9 +117,10 @@ Empat sistem nyata — streaming, reservasi hotel, e-commerce emas, dan akuntans
 <details>
 <summary><strong>Proyek lain</strong></summary>
 
-- [Gold-Price-Manager](https://github.com/fajarrafsan02-bit/Gold-Price-Manager) — pelacakan harga emas 24K/22K/18K dengan rasio karat dan riwayat perubahan.
-- [Belajar-Java](https://github.com/fajarrafsan02-bit/Belajar-Java) — materi dan latihan Java yang saya pakai saat mengajar.
-- [fajar-creative-portfolio](https://github.com/fajarrafsan02-bit/fajar-creative-portfolio) — situs portofolio (Cloudflare Workers).
+- [ARUNIKA](https://github.com/fajarrafsan/ARUNIKA) — landing page brand kopi specialty. HTML, CSS, dan JavaScript murni tanpa framework, responsif sampai 320px.
+- [Shopify-Console-C](https://github.com/fajarrafsan/Shopify-Console-C) — aplikasi toko berbasis konsol yang ditulis dari nol dengan C. TUI digambar manual: bingkai CP437, warna ANSI, kursor Win32, tanpa pustaka UI.
+- [Belajar-Java](https://github.com/fajarrafsan/Belajar-Java) — materi dan latihan Java yang saya pakai saat mengajar.
+- [fajar-creative-portfolio](https://github.com/fajarrafsan/fajar-creative-portfolio) — situs portofolio (Cloudflare Workers).
 
 </details>
 
@@ -132,7 +154,8 @@ Alat yang benar-benar dipakai di sistem di atas — bukan daftar semua yang pern
 | **Microservices** | Eureka, API Gateway, RabbitMQ, Docker Compose |
 | **Data** | PostgreSQL, Redis, transaksi, konsistensi, caching yang disengaja |
 | **Interface** | React 19, TypeScript, Tailwind v4, Vite, WebSocket/STOMP |
-| **Pembayaran** | Xendit (GlowMarket), Midtrans (Roomly) |
+| **Pembayaran** | Xendit (GlowMarket), Midtrans (Roomly, TiketKilat) |
+| **Data eksternal** | Scraping terjadwal dengan jsoup, cache berbatas waktu, dan snapshot yang bisa ditelusuri (AURUMKALA) |
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
@@ -151,20 +174,20 @@ Alat yang benar-benar dipakai di sistem di atas — bukan daftar semua yang pern
 ## Aktivitas GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=fajarrafsan02-bit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=070B12&title_color=38BDF8&icon_color=818CF8&text_color=CBD5E1&ring_color=38BDF8" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fajarrafsan02-bit&layout=compact&langs_count=8&hide_border=true&bg_color=070B12&title_color=38BDF8&text_color=CBD5E1" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=fajarrafsan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=070B12&title_color=38BDF8&icon_color=818CF8&text_color=CBD5E1&ring_color=38BDF8" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fajarrafsan&layout=compact&langs_count=8&hide_border=true&bg_color=070B12&title_color=38BDF8&text_color=CBD5E1" alt="Top languages" />
 </div>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=fajarrafsan02-bit&background=070B12&border=070B12&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=CBD5E1&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B&stroke=1E2D45" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=fajarrafsan&background=070B12&border=070B12&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=CBD5E1&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B&stroke=1E2D45" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fajarrafsan02-bit&bg_color=070B12&color=94A3B8&line=38BDF8&point=818CF8&area=true&area_color=38BDF8&hide_border=true" alt="Contribution graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fajarrafsan&bg_color=070B12&color=94A3B8&line=38BDF8&point=818CF8&area=true&area_color=38BDF8&hide_border=true" alt="Contribution graph" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fajarrafsan02-bit/fajarrafsan02-bit/snake-output/snake.svg" alt="Animasi kontribusi snake" />
+  <img src="https://raw.githubusercontent.com/fajarrafsan/fajarrafsan/snake-output/snake.svg" alt="Animasi kontribusi snake" />
 </p>
 
 <img src="./assets/divider.svg" alt="" width="100%" />
